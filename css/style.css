@@ -59,8 +59,7 @@ ul {
 
  /*MAIN*/
 
- main .container{
-    height: 400px;
+ main .container {
     margin-top: 50px;
  }
 
@@ -72,22 +71,35 @@ ul {
     width: 40%;
 }
 
-main > :last-child {
-    height: 600px;
+
+
+/*FOOTER*/
+
+footer > :first-child {
+    margin-top: 50px;
+}
+
+.col-small-footer{
+    width: 30%;
+}
+
+.col-big-footer{
+    width: 70%;
+    display: flex;
+}
+
+.col-footer {
+    width: 25%;
+}
+
+footer > :last-child {
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /*DEBUG*/
 
-/*header{
-    background-color: #ADD8E6;
-    
-    
-}
-
-/*.header-bottom {
-    background-color: #00008B;
-    height: 400px;
-}*/
 
 .header-top .container {
     background-color: #DAA520;
@@ -119,7 +131,41 @@ main > :last-child {
     border: 2px dashed black;
 }
 
+main .container{
+    height: 400px;
+}
+
 main > :last-child {
     background-color: green;
+    border: 2px dashed black;
+    height: 700px;;
+}
+
+.col-small-footer{
+    background-color: #F08080;
+    border: 2px dashed black;
+}
+
+.col-big-footer{
+    background-color: #20B2AA;
+    border: 2px dashed black;
+}
+
+.col-footer {
+    background-color: #20B2AA;
+    border: 2px dashed white;
+}
+
+footer > :first-child {
+    height: 400px;
+}
+
+footer > :last-child {
+    height: 100px;
+    background-color: #7FFFD4;
+}
+
+footer > :last-child > * {
+    background-color: #F08080;
     border: 2px dashed black;
 }
