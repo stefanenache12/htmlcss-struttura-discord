@@ -7,11 +7,119 @@
 
 /*GENERAL*/
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
 
+/*HEADER*/
+
+
+/*HEADER TOP*/
+
+
+.container .logo,.login{
+    width: 20%;
+    padding-top: 10px;
+}
+
+.login{
+    text-align: right;
+}
+
+nav{
+    width: 60%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+
+  li{
+    display: inline;
+  }
+
+  .header-top {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  /*HEADER BOTTOM*/
+  
+
+  .header-bottom .container {
+    width: 50%;
+  }
+
+ /*MAIN*/
+
+ main .container{
+    height: 400px;
+    margin-top: 50px;
+ }
+
+.col-big {
+    width: 60%;
+}
+
+.col-small {
+    width: 40%;
+}
+
+main > :last-child {
+    height: 600px;
+}
 
 /*DEBUG*/
 
-.debug .header-top{
+/*header{
     background-color: #ADD8E6;
-    height: 60px;
+    
+    
+}
+
+/*.header-bottom {
+    background-color: #00008B;
+    height: 400px;
+}*/
+
+.header-top .container {
+    background-color: #DAA520;
+    height: 40px;
+    border: 2px dashed black;
+}
+
+.header-bottom .container {
+    background-color: #EE82EE;
+    height: 300px;
+    border: 2px dashed black;
+}
+
+.logo {
+    border-right: 2px dashed black;
+}
+
+.login {
+    border-left: 2px dashed black;
+}
+
+.col-big{
+    background-color: #1E90FF;
+    border: 2px dashed black;
+}
+
+.col-small {
+    background-color: #FFC0CB;
+    border: 2px dashed black;
+}
+
+main > :last-child {
+    background-color: green;
+    border: 2px dashed black;
 }
